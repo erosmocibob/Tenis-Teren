@@ -86,7 +86,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "WindowTvojeRezervacije";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WindowTvojeRezervacije";
             this.Load += new System.EventHandler(this.WindowTvojeRezervacije_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

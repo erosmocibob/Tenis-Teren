@@ -81,7 +81,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "WindowInformacije";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WindowInformacije";
             this.Load += new System.EventHandler(this.WindowInformacije_Load);
             this.ResumeLayout(false);

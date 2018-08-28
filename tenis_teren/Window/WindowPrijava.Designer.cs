@@ -92,6 +92,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.oib);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "WindowPrijava";
             this.Text = "WindowPrijava";
             this.ResumeLayout(false);
